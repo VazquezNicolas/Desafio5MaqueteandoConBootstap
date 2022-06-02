@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+ }
+ /*------------------------------------cambiosPorBoostrap-----------------------------------*/
+ .home{
+    background-image: url(../assets/img/backgrouds/bg4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .productos{
+    background-image: url(../assets/img/backgrouds/bg4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pad{
+    padding-bottom: 20px;
+}
+.medio2{
+    display: flex; flex-direction: column;
+    justify-content: center;
+}
+.containerDiv{
+    padding: 0;
+    margin: 0;
+}
+ /*-------------------------------------------------------------------------------*/
+ 
+.ubYdev{
+    display: grid;
+    grid-template-areas:
+    "titulo titulo titulo titulo" 
+    "nav nav nav nav" 
+    "cont1 cont1 cont2 cont2" 
+    "pie pie pie pie ";
+    background-image: url(../assets/img/backgrouds/bg4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.medio{
+    display: flex; flex-direction: row;
+    justify-content: center;
+}
+.navegacion{
+    display: flex; flex-direction: row;
+    justify-content: center;
+    grid-area:nav;
+}
+.encabezado{
+    display: flex; flex-direction: row;
+    justify-content: center;
+    grid-area: titulo;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.0rem;
+    padding: 15px;
+    color: white;
+ }
+.text{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    grid-area: texto;
+}
+.cont1{
+    display: flex; flex-direction: column;
+    justify-content: center;
+    grid-area: cont1;
+}
+.cont2{
+    display: flex; flex-direction: column;
+    justify-content: center;
+    grid-area: cont2;
+}
+footer{
+    display: flex; flex-direction:row;
+    justify-content:center;
+    grid-area: pie;
+}
+.img1{
+
+    grid-area: img1;
+    padding: 5px;
+    background: radial-gradient(circle, rgba(238,174,202,1) 6%, rgba(148,233,222,0.7287289915966386) 98%);
+    border: 5px outset rgba(0, 128, 0, 0.171);
+}
+.img2{
+    grid-area: img2;
+    padding: 5px;
+    background: radial-gradient(circle, rgba(238,174,202,1) 6%, rgba(148,233,222,0.7287289915966386) 98%);
+    border: 5px outset rgba(0, 128, 0, 0.171);
+}
+.img3{
+    grid-area: img3;
+    padding: 5px;
+    background: radial-gradient(circle, rgba(238,174,202,1) 6%, rgba(148,233,222,0.7287289915966386) 98%);
+    border: 5px outset rgba(0, 128, 0, 0.171);
+}
+.tit1
+{
+    grid-area: tit1;
+}
+.tit2
+{
+    grid-area: tit2;
+}
+.tit3{
+    grid-area: tit3;
+}
+.titDis{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    padding: 15px;
+    color: white;
+    display: flex; flex-direction: column;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(238,174,202,1) 6%, rgba(148,233,222,0.7287289915966386) 98%);
+    border: 5px outset rgba(0, 128, 0, 0.171);
+}
+.prod1{
+    grid-area: prod1;
+    background: radial-gradient(circle, rgba(148,233,222,0.7287289915966386) 6%, rgba(238,174,202,1) 98%);
+    border: 5px outset rgba(0, 128, 0, 0.171);
+
+}
+.prod2{
+    grid-area: prod2;
+    background: radial-gradient(circle, rgba(148,233,222,0.7287289915966386) 6%, rgba(238,174,202,1) 98%);
+    border: 5px outset rgba(0, 128, 0, 0.171);
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+.prod3{
+    grid-area: prod3;
+    background: radial-gradient(circle, rgba(148,233,222,0.7287289915966386) 6%, rgba(238,174,202,1) 98%);
+    border: 5px outset rgba(0, 128, 0, 0.171);
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+#pie {
+    display: flex; flex-direction: row;
+    justify-content:center;
+}
+body {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+ul li {
+   display: inline;
+   list-style: none;
+   padding: 6px;
+}
+ul {
+   border: 5px outset rgba(248, 240, 121, 0.171);
+   margin: 0 auto;
+   width: 420px;
+   height:cover;
+   background: radial-gradient(circle, rgba(238,174,202,1) 6%, rgba(148,233,222,0.7287289915966386) 98%);
+   font-size: 1.0rem;
+}
+.texto {
+    display: flex; flex-direction: column;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(238,174,202,1) 6%, rgba(148,233,222,0.7287289915966386) 98%);
+    border: 5px outset rgba(0, 128, 0, 0.171);
+    text-align: center;
+    padding-top: 5px;
+    margin: 0 auto;
+    width: 325px;
+    height: 180px;
+    font-size: 1.0rem;
+}
+.tamImg{
+    display: flex; flex-direction: row;
+    text-align: center;
+    width: 300px;
+}
+.titulo{
+   font-family: 'Playfair Display', serif;
+   font-size: 2rem;
+   padding: 15px;
+   color: white;
+   display: flex; flex-direction: column;
+   justify-content: center;
+}
+.titulos{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.85rem;
+    padding: 15px;
+    color: white;
+    display: flex; flex-direction: column;
+    justify-content: center;
+ }
+.decoracion {
+   padding: 10px;
+}
+.decoracion--footer{
+   padding-left: 10px;
+   padding-right:10px;
+   padding-top: 20px;
+}
+footer{
+   font-size: 2rem;
+   padding-top: 50px;
+   color: white;  
+}
+.footer--im{
+   position: fixed;
+   bottom: 0;
+   right: 0;
+}
+.mapa {
+    display: flex; flex-direction: column;
+    justify-content:center ;
+    background: radial-gradient(circle, rgba(238,174,202,1) 6%, rgba(148,233,222,0.7287289915966386) 98%);
+    padding: 5px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 960px){   
+    .home{ 
+        background-image: url(../assets/img/backgrouds/bg2.jpg);
+    }
+    .productos{
+        background-image: url(../assets/img/backgrouds/bg2.jpg);
+    }
+    .ubYdev{  
+        background-image: url(../assets/img/backgrouds/bg2.jpg);
+    }
+  
+}
+
+@media screen and (max-width: 600px){    
+     .home{
+        background-image: url(../assets/img/backgrouds/bg1.jpg);
+    }
+    .productos{
+        background-image: url(../assets/img/backgrouds/bg1.jpg);
+    }
+    .ubYdev{
+        background-image: url(../assets/img/backgrouds/bg1.jpg);
+    }
+}
