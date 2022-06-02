@@ -20,102 +20,40 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.pad{
-    padding-bottom: 20px;
-}
-.medio2{
-    display: flex; flex-direction: column;
-    justify-content: center;
-}
-.containerDiv{
-    padding: 0;
-    margin: 0;
-}
- /*-------------------------------------------------------------------------------*/
- 
 .ubYdev{
-    display: grid;
-    grid-template-areas:
-    "titulo titulo titulo titulo" 
-    "nav nav nav nav" 
-    "cont1 cont1 cont2 cont2" 
-    "pie pie pie pie ";
     background-image: url(../assets/img/backgrouds/bg4.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.pad{
+    padding-bottom: 20px;
+}
+.padLef{
+    padding-left: 300px;
+}
+.medio2{
+    display: flex; flex-direction: column;
+    justify-content: center;
 
-.medio{
-    display: flex; flex-direction: row;
-    justify-content: center;
 }
-.navegacion{
-    display: flex; flex-direction: row;
-    justify-content: center;
-    grid-area:nav;
+.containerDiv{
+    padding: 0;
+    margin: auto;
 }
+
+ /*-------------------------------------------------------------------------------*/
+ 
 .encabezado{
     display: flex; flex-direction: row;
     justify-content: center;
-    grid-area: titulo;
     font-family: 'Playfair Display', serif;
     font-size: 1.0rem;
     padding: 15px;
     color: white;
  }
-.text{
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    grid-area: texto;
-}
-.cont1{
-    display: flex; flex-direction: column;
-    justify-content: center;
-    grid-area: cont1;
-}
-.cont2{
-    display: flex; flex-direction: column;
-    justify-content: center;
-    grid-area: cont2;
-}
-footer{
-    display: flex; flex-direction:row;
-    justify-content:center;
-    grid-area: pie;
-}
-.img1{
 
-    grid-area: img1;
-    padding: 5px;
-    background: radial-gradient(circle, rgba(238,174,202,1) 6%, rgba(148,233,222,0.7287289915966386) 98%);
-    border: 5px outset rgba(0, 128, 0, 0.171);
-}
-.img2{
-    grid-area: img2;
-    padding: 5px;
-    background: radial-gradient(circle, rgba(238,174,202,1) 6%, rgba(148,233,222,0.7287289915966386) 98%);
-    border: 5px outset rgba(0, 128, 0, 0.171);
-}
-.img3{
-    grid-area: img3;
-    padding: 5px;
-    background: radial-gradient(circle, rgba(238,174,202,1) 6%, rgba(148,233,222,0.7287289915966386) 98%);
-    border: 5px outset rgba(0, 128, 0, 0.171);
-}
-.tit1
-{
-    grid-area: tit1;
-}
-.tit2
-{
-    grid-area: tit2;
-}
-.tit3{
-    grid-area: tit3;
-}
 .titDis{
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
@@ -125,23 +63,9 @@ footer{
     justify-content: center;
     background: radial-gradient(circle, rgba(238,174,202,1) 6%, rgba(148,233,222,0.7287289915966386) 98%);
     border: 5px outset rgba(0, 128, 0, 0.171);
+ justify-content: center;
 }
-.prod1{
-    grid-area: prod1;
-    background: radial-gradient(circle, rgba(148,233,222,0.7287289915966386) 6%, rgba(238,174,202,1) 98%);
-    border: 5px outset rgba(0, 128, 0, 0.171);
-
-}
-.prod2{
-    grid-area: prod2;
-    background: radial-gradient(circle, rgba(148,233,222,0.7287289915966386) 6%, rgba(238,174,202,1) 98%);
-    border: 5px outset rgba(0, 128, 0, 0.171);
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-}
-.prod3{
-    grid-area: prod3;
+.prod{
     background: radial-gradient(circle, rgba(148,233,222,0.7287289915966386) 6%, rgba(238,174,202,1) 98%);
     border: 5px outset rgba(0, 128, 0, 0.171);
     display: flex; 
@@ -179,10 +103,11 @@ ul {
     text-align: center;
     padding-top: 5px;
     margin: 0 auto;
-    width: 325px;
-    height: 180px;
+    width: 335px;
+    height: 190px;
     font-size: 1.0rem;
 }
+
 .tamImg{
     display: flex; flex-direction: row;
     text-align: center;
@@ -191,17 +116,18 @@ ul {
 .titulo{
    font-family: 'Playfair Display', serif;
    font-size: 2rem;
-   padding: 15px;
-   color: white;
-   display: flex; flex-direction: column;
+   display: flex; flex-direction: row;
    justify-content: center;
+   color: white;
+   margin: auto;
+   padding: 15px;
 }
 .titulos{
     font-family: 'Playfair Display', serif;
     font-size: 1.85rem;
     padding: 15px;
     color: white;
-    display: flex; flex-direction: column;
+    display: flex; flex-direction:row;
     justify-content: center;
  }
 .decoracion {
@@ -223,11 +149,11 @@ footer{
    right: 0;
 }
 .mapa {
-    display: flex; flex-direction: column;
-    justify-content:center ;
     background: radial-gradient(circle, rgba(238,174,202,1) 6%, rgba(148,233,222,0.7287289915966386) 98%);
     padding: 5px;
     margin: 0 auto;
+    width: 335px;
+    height: 190px;
 }
 
 @media screen and (max-width: 960px){   
